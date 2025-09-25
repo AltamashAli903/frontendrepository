@@ -7,6 +7,7 @@ import Home from './components/Home/Home';
 import Project from './components/Project/Project';
 import Skills from './components/Skills/Skills';
 import About from './components/About/About';
+import Education from './components/Education/Education';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/home' element={<Home/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/education' element={<Education/>}/>
       </Routes>
      <Footer />
     </div>
