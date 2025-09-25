@@ -4,8 +4,12 @@ module.exports = {
   				  "./src/**/*.{js,jsx,ts,tsx}",
    				 "./public/index.html"
   			],
-  theme: {
-    extend: {},
+    theme: {
+    extend: {
+      fontFamily: {
+        lobster: ['"Lobster Two"', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }
